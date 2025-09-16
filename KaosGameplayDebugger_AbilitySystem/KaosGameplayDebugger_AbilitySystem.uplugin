@@ -1,0 +1,45 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "KaosGameplayDebugger_AbilitySystem",
+	"Description": "",
+	"Category": "Debugging",
+	"CreatedBy": "KaosSpectrum",
+	"CreatedByURL": "https://github.com/KaosSpectrum/KaosGameplayDebugger",
+	"DocsURL": "https://github.com/KaosSpectrum/KaosGameplayDebugger",
+	"MarketplaceURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "KaosGameplayDebugger_AbilitySystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"KaosGameplayDebugger"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "KaosGameplayDebugger",
+			"Enabled": true,
+			"Description": "KaosGameplayDebugger"
+		},
+		{
+			"Name": "SlateIM",
+			"Enabled": true,
+			"Description": "SlateIM"
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true,
+			"Description": "GameplayAbilities"
+		}
+	],
+	"SupportURL": ""
+}

@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "KaosGameplayDebugger",
+	"Description": "",
+	"Category": "Debugging",
+	"CreatedBy": "KaosSpectrum",
+	"CreatedByURL": "https://github.com/KaosSpectrum/KaosGameplayDebugger",
+	"DocsURL": "https://github.com/KaosSpectrum/KaosGameplayDebugger",
+	"MarketplaceURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "KaosGameplayDebugger",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"SlateIM"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SlateIM",
+			"Enabled": true,
+			"Description": "Unreal Slate IM"
+		}
+	],
+	"SupportURL": ""
+}
