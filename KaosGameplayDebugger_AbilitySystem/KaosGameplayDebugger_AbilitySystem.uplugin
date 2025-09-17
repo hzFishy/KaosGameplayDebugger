@@ -31,9 +31,9 @@
 			"Description": "KaosGameplayDebugger"
 		},
 		{
-			"Name": "SlateIM",
+			"Name": "LocalSlateIM",
 			"Enabled": true,
-			"Description": "SlateIM"
+			"Description": "LocalSlateIM"
 		},
 		{
 			"Name": "GameplayAbilities",

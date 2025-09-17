@@ -20,13 +20,13 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
-				"SlateIM"
+				"LocalSlateIM"
 			]
 		}
 	],
 	"Plugins": [
 		{
-			"Name": "SlateIM",
+			"Name": "LocalSlateIM",
 			"Enabled": true,
 			"Description": "Unreal Slate IM"
 		}
